@@ -1,0 +1,29 @@
+.chek-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+    display: flex;
+    margin-top: 20px;
+    /*justify-content: center;*/
+    text-align: center;
+    span {
+      width: 15px;
+      height: 15px;
+      border: 2px solid #000;
+      display: flex;
+      border-radius: 3px;
+      margin-right: 8px;
+      justify-content: center;
+      align-items: center;
+   }
+  }
+  .chek-text-a{
+    margin-left: 5px;
+    color: var(--accent-color);
+  }
+  .modal-checkbox:checked + .chek-text span {
+    background-color: var(--accent-color);
+    border: none;
+  }
+  
