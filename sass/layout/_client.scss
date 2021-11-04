@@ -17,26 +17,21 @@
     flex-wrap: wrap;
     margin-left: -30px;
     justify-content: center;
-    margin-top: -30px;
+    margin-bottom: -30px;
   }
   .client__item{
-    width: 100%;
-    display: flex;
+    height: 90px;
+    /*display: flex;*/
     justify-content: center;
     margin-bottom: 30px;
     flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
-    margin-top: 30px;
     @media screen and (min-width: 768px) {
       flex-basis: calc(100% / 3 - 30px);
-      margin-left: 30px;
-      margin-top: 30px;
-    }
+       }
     @media screen and (min-width: 1200px) {
       flex-basis: calc(100% / 6 - 30px);
-      margin-left: 30px;
-      margin-top: 30px;
-    }
+      }
 
   }
   .client__link {
