@@ -2,7 +2,7 @@
     display: block;
     /*background-color: var(--secondary-bg-color);*/
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/mobile/bg-img-mob.jpg');
+      url('../images/mobile/herox1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,31 +10,31 @@
            (min-resolution: 192dpi),
            (min-resolution: 2dppx) {
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('../images/mobile/bg-img-mob-2x.jpg');
+            url('../images/mobile/herox2.jpg');
         }
     padding-top: 118px;
     padding-bottom: 118px;  
     text-align: center;
     @media screen and (min-width: 768px) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/tab/bg-img-tab.jpg');
+      url('../images/tablet/herox1.jpg');
       @media screen and (min-device-pixel-ratio: 2),
            (min-resolution: 192dpi),
            (min-resolution: 2dppx) {
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('../images/tab/bg-img-2x.jpg');
+            url('../images/tablet/herox2.jpg');
         }
     }
     @media screen and (min-width: 1200px) {
       padding-top: 200px;
       padding-bottom: 200px; 
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../../images/desctop/bg-img.jpg');
+      url('../images/descktop/herox1.jpg');
       @media screen and (min-device-pixel-ratio: 2),
            (min-resolution: 192dpi),
            (min-resolution: 2dppx) {
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('../images/desctop/bg-img-2x.jpg');
+            url('../images/descktop/herox2.jpg');
         }
     }
   }

@@ -25,13 +25,13 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-   <!--HEADER-->
-   <!--<header class="header-section portfolio-line">
+   <!--HEADER -->
+   <header class="header-section portfolio-line">
     <div class="container header-container">
       <nav class="header-nav">
         <a class="logo" href=""><span class="logo-web">Web</span>Studio</a> 
         <ul class="header-list list">
-            <li class="header-list__item"><a class="header-list__link" href="./index.html">Студия</a></li>
+            <li class="header-list__item"><a class="header-list__link " href="./index.html">Студия</a></li>
             <li class="header-list__item"><a class="header-list__link current" href="./portfolio.html">Портфолио</a></li>
             <li class="header-list__item"><a class="header-list__link" href="">Контакты</a></li>
         </ul>
@@ -52,9 +52,60 @@
                     +38 096 111 11 11</a>
             </li>
         </ul>
-     
+     <!--MOBILE MENU-->
+     <button type="button" class="menu-open-btn">
+        <svg class="menu-open-icon" width="40" height="40">
+            <use href="./images/sprite.svg#icon-menu_24px">
+            </use>
+        </svg>
+     </button>
+    </div>
+    
+    <div class="mob-menu is-hidden">
+      <div class="container">
+        <button type="button" class="menu-close-btn">
+            <svg class="menu-close-icon" width="40" height="40">
+              <use href="./images/sprite.svg#icon-vector"></use>
+            </svg>
+          </button>
+        <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+                <a href="" class="mob-menu-link">Студия</a>
+            </li>
+            <li class="mob-menu-item">
+                <a href="" class="mob-menu-link">Портфолио</a>
+            </li>
+            <li class="mob-menu-item">
+                <a href="" class="mob-menu-link">Контакты</a>
+            </li>
+        </ul>
+        <div class="mob-menu-bottom">
+        <ul class="mob-contacts-list list">
+            <li class="mob-contacts-item">
+                <a href="" class="mob-contacts-link">+38 096 111 11 11</a>
+            </li>
+            <li class="mob-contacts-item">
+                <a href="" class="mob-contacts-link">info@devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="mob-social-list list"> 
+            <li class="mob-social-item">
+                <a href="" class="mob-social-link">Instagram</a>
+            </li>
+            <li class="mob-social-item">
+                <a href="" class="mob-social-link">Twitter</a>
+            </li>
+            <li class="mob-social-item">
+                <a href="" class="mob-social-link">Facebook</a>
+            </li>
+            <li class="mob-social-item">
+                <a href="" class="mob-social-link">LinkedIn</a>
+            </li>
+        </ul>
+       </div>
+      </div>
     </div>  
-</header>-->
+</header>
 <!--HEADER END-->
     <!---->
     <main>
@@ -73,17 +124,17 @@
             <ul class="project-img__list list">
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/mobile/img (6)2x.jpg" alt="Веб-сайт Технокряк" width="370">
-                    <picture>
-                        <source srcset="./images/team/desktop/team-4-desktop.jpg 1x,
-                                        ./images/team/desktop/team-4-desktop@2x.jpg 2x" media="(min-width:1200px)">
-                        <source srcset="./images/team/tablet/team-4-tablet.jpg 1x, 
-                                        ./images/team/tablet/team-4-tablet@2x.jpg 2x" media="(min-width:768px)">
-                        <source srcset="./images/team/mobile/team-4-mobile.jpg 1x, 
-                                        ./images/team/mobile/team-4-mobile@2x.jpg 2x" media="(min-width:320px)">
-                        <img class="team-list__img" src="./images/team/team-4-mobile.jpg" 
-                             alt="Веб-сайт Технокряк" aria-label="Веб-сайт Технокряк">
-                    </picture>
+                        <picture>
+                            <source
+                                srcset="./images/descktop/peoplex1.jpg 1x, ./images/descktop/peoplex2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/peoplex1.jpg 1x, ./images/tablet/peoplex2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/peoplex1.jpg 1x, ./images/mobile/peoplex2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto9.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                     <div class="subtitle">
@@ -93,7 +144,16 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                        <picture>
+                            <source srcset="./images/descktop/basckx1.jpg 1x, ./images/descktop/basckx2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/basckx1.jpg 1x, ./images/tablet/basckx2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/basckx1.jpg 1x, ./images/mobile/basckx2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto1.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -104,7 +164,16 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 3.jpg" alt="Приложение для Ресторан Seafood" width="370">
+                        <picture>
+                            <source srcset="./images/descktop/seex1.jpg 1x, ./images/descktop/seex2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/seex1.jpg 1x, ./images/tablet/seex2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/seex1.jpg 1x, ./images/mobile/seex2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto2.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -115,7 +184,19 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 4.jpg" alt="Проект Prime" width="370">
+                        <picture>
+                            <source
+                                srcset="./images/descktop/headphonex1.jpg 1x, ./images/descktop/headphonex2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source
+                                srcset="./images/tablet/headphonex1.jpg 1x, ./images/tablet/headphonex2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source
+                                srcset="./images/mobile/headphonex1.jpg 1x, ./images/mobile/headphonex2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto3.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -126,7 +207,16 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 5.jpg" alt="Проект Boxes" width="370">
+                        <picture>
+                            <source srcset="./images/descktop/boxx1.jpg 1x, ./images/descktop/boxx2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/boxx1.jpg 1x, ./images/tablet/boxx2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/boxx1.jpg 1x, ./images/mobile/boxx2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto4.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -137,7 +227,17 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 6.jpg" alt="Веб-сайт Inspiration has no Borders" width="370">
+                        <picture>
+                            <source
+                                srcset="./images/descktop/monitorx1.jpg 1x, ./images/descktop/monitorx2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/monitorx1.jpg 1x, ./images/tablet/monitorx2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/monitorx1.jpg 1x, ./images/mobile/monitorx2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto5.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -148,7 +248,17 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 7.jpg" alt="Издание Limited Edition" width="370">
+                        <picture>
+                            <source srcset="./images/descktop/bookx1.jpg 1x, ./images/descktop/bookx2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/bookx1.jpg 1x, ./images/tablet/bookx2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/bookx1.jpg 1x, ./images/mobile/bookx2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto6.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
+
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -159,7 +269,17 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img"  src="./images/portfolio 8.jpg" alt="Проект LAB" width="370">
+                        <picture>
+                            <source srcset="./images/descktop/labelx1.jpg 1x, ./images/descktop/labelx2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/labelx1.jpg 1x, ./images/tablet/labelx2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/labelx1.jpg 1x, ./images/mobile/labelx2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto7.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
+
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -170,7 +290,17 @@
                 </li>
                 <li class="project-img__item">
                     <div class="project-top-wrapper"> 
-                    <img class="portfolio__img" src="./images/portfolio 9.jpg" alt="Приложение Growing Business" width="370">
+                        <picture>
+                            <source
+                                srcset="./images/descktop/macbookx1.jpg 1x, ./images/descktop/macbookx2.jpg 2x"
+                                media="(min-width:1200px)">
+                            <source srcset="./images/tablet/macbookx1.jpg 1x, ./images/tablet/macbookx2.jpg 2x"
+                                media="(min-width:768px)">
+                            <source srcset="./images/mobile/macbookx1.jpg 1x, ./images/mobile/macbookx2.jpg 2x"
+                                media="(min-width:320px)">
+                            <img class="images" src="./images/portfolio/foto8.jpg" alt="" width="370"
+                                height="294">
+                        </picture>
                     <p class="project-top-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam deserunt mollitia ipsam natus necessitatibus
                                         veritatis eaque culpa, omnis delectus accusantium?</p>
                     </div>
@@ -186,7 +316,7 @@
         
     </main> 
     <!--footer-->
-<!--<footer class="footer">
+    <footer class="footer">
         <div class="container footer-conteiner">
          <div class="part-adress">
          <a class="footer-logo" href=""><span class="footer-logo-web">Web</span>Studio</a>
@@ -208,28 +338,28 @@
                          <li class="footer-social__item">
                              <a href="" class="footer-social__link link">
                                  <svg class="footer-social__icon" width="20" height="20">
-                                     <use href="./images/sprite.svg#icon-instagram"
+                                     <use href="./images/sprite.svg#icon-instagram"></use>
                                  </svg>
                              </a>
                          </li>
                          <li class="footer-social__item">
                              <a href="" class="footer-social__link link">
                                   <svg class="footer-social__icon" width="20" height="20">
-                                     <use href="./images/sprite.svg#icon-twitter"
+                                     <use href="./images/sprite.svg#icon-twitter"></use>
                                  </svg>
                              </a>
                          </li>
                          <li class="footer-social__item">
                              <a href="" class="footer-social__link link">
                                  <svg class="footer-social__icon" width="20" height="20">
-                                     <use href="./images/sprite.svg#icon-facebook"
+                                     <use href="./images/sprite.svg#icon-facebook"></use>
                                  </svg>
                              </a>
                          </li>
                          <li class="footer-social__item">
                              <a href="" class="footer-social__link link">
                                  <svg class="footer-social__icon" width="20" height="20">
-                                     <use href="./images/sprite.svg#icon-linkedin"
+                                     <use href="./images/sprite.svg#icon-linkedin"></use>
                                  </svg>
                              </a>
                          </li>  
@@ -248,6 +378,7 @@
              </form>
          </div>
      </div>
-     </footer>-->
+     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
