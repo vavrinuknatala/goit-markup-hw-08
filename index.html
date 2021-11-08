@@ -76,10 +76,10 @@
               </button>
             <ul class="mob-menu-list list">
                 <li class="mob-menu-item">
-                    <a href="" class="mob-menu-link">Студия</a>
+                    <a href="./index.html" class="mob-menu-link">Студия</a>
                 </li>
                 <li class="mob-menu-item">
-                    <a href="" class="mob-menu-link">Портфолио</a>
+                    <a href="./portfolio.html" class="mob-menu-link">Портфолио</a>
                 </li>
                 <li class="mob-menu-item">
                     <a href="" class="mob-menu-link">Контакты</a>
@@ -233,7 +233,7 @@
                             media="(min-width:768px)">
                         <source srcset="./images/mobile/men1x1.jpg 1x, ./images/mobile/men1x2.jpg 2x"
                             media="(min-width:320px)">
-                        <img src="./images/img1.jpg" alt="">
+                        <img src="./images/img1.jpg" class="images" alt="">
                     </picture>
                     <h3 class="team-list__title">Игорь Демьяненко</h3>
                     <p class="team-list__pro" lang="en">Product Designer</p>
@@ -276,7 +276,7 @@
                             media="(min-width:768px)">
                         <source srcset="./images/mobile/girlx1.jpg 1x, ./images/mobile/girlx2.jpg 2x"
                             media="(min-width:320px)">
-                        <img src="./images/img2.jpg" alt="">
+                        <img src="./images/img2.jpg" class="images" alt="">
                     </picture>
                     <h3 class="team-list__title">Ольга Репина</h3>
                     <p class="team-list__pro" lang="en">Frontend Developer</p>
@@ -319,7 +319,7 @@
                             media="(min-width:768px)">
                         <source srcset="./images/mobile/men2x1.jpg 1x, ./images/mobile/men2x2.jpg 2x"
                             media="(min-width:320px)">
-                        <img src="./images/img3.jpg" alt="">
+                        <img src="./images/img3.jpg" class="images" alt="">
                     </picture>
                     <h3 class="team-list__title">Николай Тарасов</h3>
                     <p class="team-list__pro" lang="en">Marketing</p>
@@ -362,7 +362,7 @@
                             media="(min-width:768px)">
                         <source srcset="./images/mobile/men3x1.jpg 1x, ./images/mobile/men3x2.jpg 2x"
                             media="(min-width:320px)">
-                        <img src="./images/img4.jpg" alt="">
+                        <img src="./images/img4.jpg" class="images" alt="">
                     </picture>
                     <h3 class="team-list__title">Михаил Ермаков</h3>
                     <p class="team-list__pro" lang="en">UI Designer</p>
@@ -454,68 +454,89 @@
     </main>
     </div> 
     <!--footer-->
-   <footer class="footer">
-       <div class="container footer-conteiner">
-        <div class="part-adress">
-        <a class="footer-logo" href=""><span class="footer-logo-web">Web</span>Studio</a>
-        <address class="adres">
-            <p class="adres-adres">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="adres-list list">
-                <li class="adres-list__item">
-                    <a class="adres-list__contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="adres-list__item">
-                    <a class="adres-list__contact" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-        </div>
-        <div class="part-social">
-            <p class="footer-text">присоединяйтесь</p>
-            <ul class="footer-social__list list">
-                        <li class="footer-social__item">
-                            <a href="" class="footer-social__link link">
-                                <svg class="footer-social__icon" width="20" height="20">
+    <footer class="footer-section">
+        <div class="footer">
+            <div class="footer_social">
+                <div class="footer-web">
+                    <ul class="list">
+                        <li class="footer__item">
+                            <a href="" class="footer__item link">
+                                <span class="footer__item web">Web</span>
+                                <span class="footer__item studio-footer">Studio</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <address>
+
+                        <ul class="list">
+                            <li class="footer-address">
+                                <a class="footer-address__link link" href="https://goo.gl/maps/H9N44uU696uec2gw7">г.
+                                    Киев, пр-т Леси Украинки, 26</a>
+                            </li>
+                            <li class="footer-address">
+                                <a class="footer-address__mailto link"
+                                    href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li class="footer-address">
+                                <a class="footer-address__tel link" href="tel:+380991111111">+38 099 111 1111</a>
+                            </li>
+                        </ul>
+
+                    </address>
+                </div>
+                <div class="footer-container">
+                    <p class="text">присоединяйтесь</p>
+                    <ul class="social-footer list">
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link link">
+                                <svg class="socials-footer__icon" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-social__item">
-                            <a href="" class="footer-social__link link">
-                                 <svg class="footer-social__icon" width="20" height="20">
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link link">
+                                <svg class="socials-footer__icon" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-social__item">
-                            <a href="" class="footer-social__link link">
-                                <svg class="footer-social__icon" width="20" height="20">
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link link">
+                                <svg class="socials-footer__icon" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-social__item">
-                            <a href="" class="footer-social__link link">
-                                <svg class="footer-social__icon" width="20" height="20">
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link link">
+                                <svg class="socials-footer__icon" width="20" height="20">
                                     <use href="./images/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
-                        </li>  
-            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="footer__subscriber">
+                <p class="mailing-form">Подпишитесь на рассылку</p>
+                <form action="#" class="form-footer">
+                    <input type="text" class="mailing-text" placeholder="E-mail">
+                    <button class="footer-button" type="button">Подписаться
+                        <svg class="footer-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
+
         </div>
-        <div class="footer-email">
-            <p class="footer-text">Подпишитесь на рассылку</p>
-            <form action="#" class="email-form">
-                <input type="email" name="email" placeholder="E-mail" class="email-input"/>
-                <button type="submit" class="btn-email">Подписаться
-                    <svg class="email-icon" width="24" height="24">
-                        <use href="./images/sprite.svg#icon-send">
-                        </use>
-                    </svg>
-                </button>
-            </form>
-        </div>
-    </div>
     </footer>
 
 <!--MODAL WINDOW-->

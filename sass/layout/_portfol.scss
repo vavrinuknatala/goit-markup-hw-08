@@ -5,6 +5,12 @@
     width: 100%;
     text-align: center;
   }
+  .images{
+    display: block;
+    height: auto;
+    width: 100%;
+
+}
   .project-btn__list {
     display: flex;
     flex-wrap: wrap;
@@ -66,10 +72,11 @@
   }
 }
   .project-img__item {
-    width: 100%;
+   // width: 100%;
     margin-bottom: 30px;
     display: block;
     justify-content: center;
+    text-align: center;
     @media screen and (min-width: 768px) {
       flex-basis: calc(100% / 2 - 30px);
       margin-left: 30px;

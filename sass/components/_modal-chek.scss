@@ -1,12 +1,18 @@
 .chek-text {
-    font-size: 14px;
-    line-height: 1.7;
+    //font-size: 14px;
+    //line-height: 1.7;
+    font-size: 12px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.03em;
     color: #757575;
     display: flex;
     margin-top: 20px;
     /*justify-content: center;*/
     text-align: center;
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.7;
+    }
     span {
       width: 15px;
       height: 15px;
