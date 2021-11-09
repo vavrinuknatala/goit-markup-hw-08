@@ -3,13 +3,21 @@
   }
   .portfolio__img{
     width: 100%;
-    text-align: center;
+    //text-align: center;
   }
   .images{
     display: block;
     height: auto;
     width: 100%;
 
+}
+.project{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-top: 94px;
+  }
 }
   .project-btn__list {
     display: flex;
@@ -76,7 +84,7 @@
     margin-bottom: 30px;
     display: block;
     justify-content: center;
-    text-align: center;
+   // text-align: center;
     @media screen and (min-width: 768px) {
       flex-basis: calc(100% / 2 - 30px);
       margin-left: 30px;
@@ -109,6 +117,10 @@
     height: 100%;
     display: flex;
     align-items: center;
+    padding: auto;
+    text-align: left;
+    //padding-bottom: 20px;
+
     justify-content: center;
     padding-left: 24px;
     padding-right: 24px;

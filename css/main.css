@@ -485,12 +485,11 @@ body {
 .features {
   width: 100%;
   padding-bottom: 60px;
-  text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
   .features {
-    padding-bottom: 94px;
+    padding-bottom: 47px;
   }
 }
 
@@ -502,7 +501,6 @@ body {
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -567,7 +565,7 @@ body {
 @media screen and (min-width: 1200px) {
   .work {
     display: block;
-    padding-top: 47px;
+    padding-top: 94px;
   }
 }
 
@@ -629,7 +627,7 @@ body {
 @media screen and (min-width: 1200px) {
   .team {
     display: block;
-    padding-top: 47px;
+    padding-top: 94px;
   }
 }
 
@@ -716,6 +714,7 @@ body {
   display: block;
   height: auto;
   width: 100%;
+  margin: 0 auto;
 }
 
 .social-list__item {
@@ -906,15 +905,24 @@ body {
   .footer-web {
     display: flex;
     flex-direction: column;
-    padding-left: 0;
     text-align: center;
     padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-web {
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer-web {
     margin-right: 70px;
+    text-align: left;
   }
 }
 
@@ -922,11 +930,18 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.16;
+  font-family: 'Raleway', sans-serif;
   color: var(--accent-color);
+}
+
+.footer__item {
+  margin-bottom: 20px;
 }
 
 .footer-address {
   margin-bottom: 9px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
 }
 
 .footer__item .studio-footer {
@@ -941,7 +956,8 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--secondary-title-color);
+  color: #FFFFFF;
+  margin-top: 20px;
 }
 
 .footer-address__mailto {
@@ -949,6 +965,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  font-family: 'Roboto', sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -961,6 +978,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -989,8 +1007,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: #FFFFFF;
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1003,6 +1025,8 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   padding-left: 0;
 }
 
@@ -1067,6 +1091,8 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   color: #FFFFFF;
   padding-bottom: 20px;
   display: block;
@@ -1084,6 +1110,8 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   border-radius: 4px;
   color: #ffffff;
   padding-left: 16px;
@@ -1119,6 +1147,8 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -1134,6 +1164,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   text-transform: uppercase;
   color: #d7fd00;
 }
@@ -1171,13 +1203,24 @@ body {
 
 .portfolio__img {
   width: 100%;
-  text-align: center;
 }
 
 .images {
   display: block;
   height: auto;
   width: 100%;
+}
+
+.project {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .project {
+    padding-top: 94px;
+    padding-top: 94px;
+  }
 }
 
 .project-btn__list {
@@ -1253,7 +1296,6 @@ body {
   margin-bottom: 30px;
   display: block;
   justify-content: center;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1291,6 +1333,8 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  padding: auto;
+  text-align: left;
   justify-content: center;
   padding-left: 24px;
   padding-right: 24px;

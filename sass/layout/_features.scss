@@ -1,9 +1,9 @@
 .features {
     width: 100%;
     padding-bottom: 60px;
-    text-align: center;
+    //text-align: center;
     @media screen and (min-width: 1200px) {
-      padding-bottom: 94px;
+      padding-bottom: 47px;
     }
   }
   .feature__title {
@@ -14,7 +14,7 @@
     text-transform: uppercase;
     color: var(--primary-text-color);
     margin-bottom: 10px;
-    text-align: center;
+    //text-align: center;
     @media screen and (min-width: 768px) {
       text-align: left;
     }
@@ -24,6 +24,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    //text-align-last: left;
     color: var(--secondary-text-color);
     
   }
