@@ -1,3 +1,12 @@
+.project{
+  //position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-top: 94px;
+  }
+}
 .portfolio-line {
     border-bottom: 1px solid #ececec;
   }
@@ -6,19 +15,12 @@
     //text-align: center;
   }
   .images{
-    display: block;
-    height: auto;
+   // display: block;
+    //height: auto;
     width: 100%;
 
 }
-.project{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  @media screen and (min-width: 1200px){
-    padding-top: 94px;
-    padding-top: 94px;
-  }
-}
+
   .project-btn__list {
     display: flex;
     flex-wrap: wrap;

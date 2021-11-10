@@ -1,11 +1,15 @@
 .client{
+    padding-top: 60px;
+    padding-bottom: 60px;
    @media screen and (min-width: 768px) {
     display: block;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   @media screen and (min-width: 1200px){
     display: block;
     padding-top: 47px;
+    padding-bottom: 94px;
   }
 }
 .client__title {
